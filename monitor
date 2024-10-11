@@ -1,9 +1,9 @@
 #!/bin/bash
  
 if [ $# -eq 0 ]; then
-	python3 show_smi.py
+	python3 $(cd "$(dirname "$0")"; pwd)/show_smi.py
 else
-	python3 show_smi.py $@ &
+	python3 $(cd "$(dirname "$0")"; pwd)/show_smi.py $@ &
 	PID1=$!
 	 
 	while kill -0 $PID1 2>/dev/null; do
