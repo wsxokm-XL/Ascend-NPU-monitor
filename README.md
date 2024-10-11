@@ -15,8 +15,8 @@ wget https://gitee.com/youwantto/Ascent-NPU-monitor/blob/main/config.ini
 ## 脚本使用
 1.  需要python安装 `prettytable` 和 `configparser` 库:
     ```bash
-    pip install prettytable
-    pip install configparser 
+    python3 -m pip install prettytable
+    python3 -m pip install configparser 
     ```
 2.  给shell脚本添加可执行权限：
 
