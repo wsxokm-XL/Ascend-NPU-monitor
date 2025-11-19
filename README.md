@@ -1,22 +1,19 @@
-# Ascent-NPU-monitor
-A progress for ascent npu monitor
+# Ascend-NPU-monitor
+A progress for ascend npu monitor
 
 ![54816fbbacf8fa5914586665db5aae6](https://github.com/user-attachments/assets/fac4f774-2788-4c6f-9eb0-5414e8bfbe8e)
 
 ## 脚本下载
 ```bash
-mkdir /usr/local/npu-monitor
-cd /usr/local/npu-monitor
-wget https://gitee.com/youwantto/Ascent-NPU-monitor/blob/main/monitor
-wget https://gitee.com/youwantto/Ascent-NPU-monitor/blob/main/show_smi.py
-wget https://gitee.com/youwantto/Ascent-NPU-monitor/blob/main/config.ini
+wget https://codeload.github.com/wsxokm-XL/Ascent-NPU-monitor/zip/refs/heads/main
+unzip main
+cd Ascent-NPU-monitor
 ```
 
 ## 脚本使用
 1.  需要python安装 `prettytable` 和 `configparser` 库:
     ```bash
-    python3 -m pip install prettytable
-    python3 -m pip install configparser 
+    python3 -m pip install prettytable==2.3.0 configparser
     ```
 2.  给shell脚本添加可执行权限：
 
