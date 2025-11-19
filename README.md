@@ -5,7 +5,7 @@ A progress for ascend npu monitor
 
 ## 脚本下载
 ```bash
-wget https://codeload.github.com/wsxokm-XL/Ascent-NPU-monitor/zip/refs/heads/main
+wget https://codeload.github.com/wsxokm-XL/Ascend-NPU-monitor/zip/refs/heads/main
 unzip main
 cd Ascent-NPU-monitor
 ```
